@@ -1,0 +1,31 @@
+from distutils.core import setup
+setup(
+  name = 'psapy',
+  packages = ['psapy'],
+  version = '0.2',
+  license='MIT',
+  description = 'Production System Analysis',
+  author = 'Orkahub Energy',
+  author_email = 'orkahub@gmail.com',
+  url = 'https://github.com/orkahub/production_systems_analysis',
+  download_url = 'https://github.com/orkahub/production_systems_analysis/archive/v_02.tar.gz',
+  keywords = ['RESERVOIR', 'ENERGY', 'OIL', 'GAS', 'PRODUCTION', 'VLP', 'IPR'],
+  install_requires=[
+          'pandas',
+          'numpy',
+          'scipy',
+          'seaborn',
+      ],
+  classifiers=[
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Topic :: Software Development :: Build Tools',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.4',
+    'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+  ],
+)
